@@ -19,7 +19,7 @@ INSTALLED_APPS = (
 3. Set NG_SRC_PATH const in settings.py. For example:
 
 ```python
-NG_SRC_PATH os.path.join(BASE_DIR, 'website')
+NG_SRC_PATH = os.path.join(BASE_DIR, 'website')
 ```
 
 # How to use (examples)
